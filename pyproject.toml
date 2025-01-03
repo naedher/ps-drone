@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ps_drone"
+version = "0.1.0"
+description = "Programming a Parrot AR.Drone 2.0 with Python - The Easy Way"
+readme = "README.md"
+license = { file = "LICENCE" }
+authors = [
+    { name="J. Philipp de Graaff", email="drone@playsheep.de" }
+]
+dependencies = [
+    "opencv-python",
+]
+
+[project.urls]
+homepage = "http://www.playsheep.de/drone"
+
+[tool.setuptools]
+packages = ["ps_drone"]
+
